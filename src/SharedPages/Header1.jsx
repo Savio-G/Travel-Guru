@@ -5,7 +5,7 @@ const Header1 = () => {
 
 
 
-    <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0" >
+    <nav className="bg-white dark:bg-gray-900 z-10 w-full " >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-evenly mx-auto p-4">
         <a href="/" className="flex items-center ">
 
