@@ -1,3 +1,25 @@
-.active {
-  border: 10px solid yellow;
+.swiper-button-next {
+  --swiper-navigation-size: 44px;
+  --swiper-navigation-top-offset: 120%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: var(--swiper-theme-color);
+}
+
+.swiper-button-prev {
+  --swiper-navigation-size: 44px;
+  --swiper-navigation-top-offset: 120%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: var(--swiper-theme-color);
+}
+
+.next-btn {
+  position: absolute;
+  top: 110%;
+  right: 50%;
+}
+
+.prev-btn {
+  position: absolute;
+  top: 110%;
+  left: 44%;
 }

@@ -8,7 +8,6 @@ const Layout1 = () => {
     bgImage,
     setbgImage
   }
-  console.log(bgImage)
   return (
     <BgProvider.Provider value={bgInfo}>
       <div style={{
