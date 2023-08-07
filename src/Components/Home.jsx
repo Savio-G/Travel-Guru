@@ -9,10 +9,7 @@ import { BgProvider } from "../Layouts/Layout1";
 const Home = () => {
   const loaderData = useLoaderData()
   const { bgImage } = useContext(BgProvider)
-  console.log(bgImage.id)
-  if (!loaderData && !bgImage) {
-    return <div>Loading...</div>; // You can show a loading spinner or message here
-  }
+
   return (
     <div className="grid grid-cols-4 p-[7rem] relative">
       <div className="col-span-2 text-white px-[5rem]">
